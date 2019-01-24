@@ -9,4 +9,6 @@
 
 [Урок 13](https://andreybezverkhnii.github.io/lesson_13/ "Домашка") - домашнее задание № 13
 
+[Модуль 5. Практика. Часть 1.](https://andreybezverkhnii.github.io/lesson_5-1/ "Домашка") - домашнее задание Модуль 5. Практика. Часть 1.
+
 [Урок 14](https://andreybezverkhnii.github.io/lesson_14/ "Домашка") - домашнее задание № 14
