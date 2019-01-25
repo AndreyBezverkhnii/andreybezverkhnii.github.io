@@ -13,4 +13,4 @@
 
 [Урок 14](https://andreybezverkhnii.github.io/lesson_14/ "Домашка") - домашнее задание № 14
 
-Модуль 5. Практика. Часть 2.](https://andreybezverkhnii.github.io/lesson_5-2/ "Домашка") - домашнее задание Модуль 5. Практика. Часть 2.
+[Модуль 5. Практика. Часть 2.](https://andreybezverkhnii.github.io/lesson_5-2/ "Домашка") - домашнее задание Модуль 5. Практика. Часть 2.
