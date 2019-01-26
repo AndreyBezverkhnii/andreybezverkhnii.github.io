@@ -1,0 +1,17 @@
+.image {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+}
+.image::before,
+.image::after {
+	content: '';
+	position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5); opacity: 0;
+}
+.image:hover:before,
+.image:hover:after {
+	opacity: 0.5;
+}
