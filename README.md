@@ -16,3 +16,5 @@
 [Модуль 5. Практика. Часть 2.](https://andreybezverkhnii.github.io/lesson_5-2/ "Домашка") - домашнее задание Модуль 5. Практика. Часть 2.
 
 [Урок 15](https://andreybezverkhnii.github.io/lesson_15/ "Домашка") - домашнее задание № 15
+
+[Модуль 5. Практика. Часть 3.](https://andreybezverkhnii.github.io/lesson_5-3/ "Домашка") - домашнее задание Модуль 5. Практика. Часть 3.
