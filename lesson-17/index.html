@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, rink-to-fit=no">
+	<!-- Bootstrap CSS -->
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Modal-window</title>
+</head>
+<body>
+	<section class="section">
+    <div class="container  text-center">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary main-btn" data-toggle="modal" data-target="#exampleModalLong">
+        Удалить файл
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Удалить файл</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><img src="img/cross.png" alt=""></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Вы действительно хотите удалить файл?
+            </div>
+            <div class="modal-footer justify-content-start">
+              <button type="button" class="btn btn-success">Да</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Нет</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
