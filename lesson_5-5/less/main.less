@@ -47,6 +47,7 @@ iframe {
 	height: 30rem;
 	border: none;
 }
+
 /* basic setting */
 html {
 	font-size: 10px;
@@ -87,7 +88,9 @@ a:hover {
 
 /* Оформление форм */
 .form {
-	&-input, &-textarea {
+
+	&-input,
+	&-textarea {
 		display: block;
 		margin: 2rem 0;
 		width: 100%;
@@ -486,30 +489,37 @@ section {
 .scheme {
 	background: #fff url(../img/scheme/scheme-bg.png) bottom -10rem right -15rem no-repeat;
 	background-size: 65rem;
+
 	&-block {
 		min-height: 30rem;
+
 		h3 {
 			margin-top: 3rem;
 			font-size: 2rem;
 			.bold();
 		}
+
 		p {
 			font-size: 1.6rem;
 		}
 	}
 }
+
 /* all-inclusive */
 .all-inclusive {
 	background: @bg-light;
+
 	.media {
 		min-height: 9rem;
+
 		h4 {
 			margin-left: 1rem;
 			margin-top: 1.5rem;
 			.bold();
 			font-size: 1.6rem;
-			
+
 		}
+
 		p {
 			margin-left: 1rem;
 			font-size: 1.1rem;
@@ -523,6 +533,7 @@ section {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
+
 	&-border {
 		display: inline-block;
 		width: 5rem;
@@ -541,6 +552,7 @@ section {
 /* Развеем все опасения */
 .problems {
 	position: relative;
+
 	&-women {
 		position: absolute;
 		width: 31rem;
@@ -548,19 +560,23 @@ section {
 		left: 50%;
 		margin-left: -19rem;
 	}
+
 	&-list {
 		border: 4px solid;
 		padding: 2rem;
 		margin-bottom: 2rem;
 		min-height: 35rem;
+
 		h4 {
 			font-size: 2.1rem;
 			.bold();
 		}
+
 		ul {
 			list-style: none;
 			padding-left: 0;
 			padding-top: 2rem;
+
 			li {
 				&:before {
 					content: '';
@@ -570,26 +586,32 @@ section {
 					transform: translateY(-50%);
 					width: 3rem;
 					height: 3rem;
-	
+
 				}
+
 				padding-left: 3.5rem;
 				position: relative;
 				margin-bottom: 3rem;
 				font-size: 1.4rem;
 			}
 		}
+
 		&-bad {
 			border-color: @problems-color;
+
 			h4 {
 				opacity: 0.5;
 			}
+
 			ul li:before {
 				background: url(../img/cros.svg) center no-repeat;
 				background-size: 50%;
 			}
 		}
+
 		&-good {
 			border-color: @icons-color;
+
 			ul li:before {
 				background: url(../img/check.svg) center no-repeat;
 				background-size: 50%;
@@ -597,30 +619,38 @@ section {
 		}
 	}
 }
+
 .materials {
-	
+
 	h3 {
 		font-size: 2.2rem;
 	}
+
 	p {
 		font-size: 1.9rem;
 	}
+
 	background: @light url(../img/material/material-bg.jpg) center no-repeat;
 	background-size: cover;
+
 	&-offer {
 		margin-top: 4rem;
 		font-size: 2rem;
 	}
+
 	&-slider {
 		padding-top: 5rem;
 	}
+
 	&-link {
 		color: @icons-color;
 		border-bottom: 1px dotted @icons-color;
+
 		&:hover {
 			color: darken(@icons-color, 10%);
 		}
 	}
+
 	img {
 		display: block;
 		margin: 0 auto;
@@ -631,31 +661,37 @@ section {
 .tour {
 	background: url(../img/work/work-bg.png) center no-repeat;
 	background-size: cover;
+
 	&-subtitle {
 		margin-bottom: 2rem;
 		font-size: 2.1rem;
 	}
-	
+
 	&-btn {
 		padding: 1rem 1rem;
 	}
 }
+
 /* UpSell */
 .upsell {
 	background: @upsell-bg;
+
 	&-block {
 		&s {
 			margin-top: 4rem;
 		}
+
 		img {
 			display: inline-block;
 			margin-bottom: 2rem;
 			width: 100%;
 			max-width: 30rem;
 		}
+
 		p {
 			font-size: 2rem;
 		}
+
 		text-align: center;
 		color: @light;
 		min-height: 30rem;
@@ -667,20 +703,25 @@ section {
 	font-size: 1.8rem;
 	background: @light url(../img/contacts/contacts-bg.png) center no-repeat;
 	background-size: cover;
+
 	h2 {
 		.bold();
 	}
+
 	a {
 		border-bottom: 1px dotted @text;
 		color: @text;
+
 		&:hover {
 			color: darken(@text, 10%);
 		}
 	}
+
 	p {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
+
 	&-form {
 		h2 {
 			font-size: 1.9rem;
@@ -689,31 +730,37 @@ section {
 		}
 	}
 }
+
 /* Подвал */
 footer {
 	font-size: 1.7rem;
 	padding: 4rem 0;
+
 	.footer-link {
 		display: inline-block;
 		border-bottom: 1px dotted @text;
 		color: @text;
+
 		&:hover {
 			color: darken(@text, 10%);
 		}
 	}
+
 	.footer {
 		&-contacts {
 			padding-top: 0.5rem;
 			text-align: center;
+
 			p {
 				margin: 0;
 			}
 		}
-			&-dev-logo {
+
+		&-dev-logo {
 			text-align: right;
 		}
 	}
-	
+
 }
 
 /* Всплывающие окна */
@@ -779,11 +826,13 @@ footer {
 			margin-bottom: 3rem;
 		}
 	}
+
 	.all-inclusive {
 		.media {
 			min-height: 11rem;
 		}
 	}
+
 	.problems {
 		&-list {
 			min-height: 40rem;
@@ -792,7 +841,7 @@ footer {
 }
 
 @media (max-width: 991px) {
-	
+
 	.main {
 		background-position: top right;
 
@@ -848,32 +897,40 @@ footer {
 	.hand {
 		display: none;
 	}
+
 	.problems {
 		&-list {
 			min-height: 50rem;
 		}
+
 		&-women {
 			display: none;
 		}
 	}
+
 	.tour {
 		background: none;
 		background-color: @bg-light;
 		text-align: center;
 	}
+
 	.contacts {
 		background: none;
 		background-color: @bg-light;
+
 		&-form {
 			margin-top: 3rem;
 		}
 	}
+
 	footer {
 		text-align: center;
+
 		.footer {
 			&-contacts {
 				margin: 2rem 0;
 			}
+
 			&-dev-logo {
 				text-align: center;
 			}
@@ -899,6 +956,7 @@ footer {
 			padding-top: 4rem;
 		}
 	}
+
 	.problems {
 		&-list {
 			min-height: auto;
@@ -936,6 +994,7 @@ footer {
 			right: 0;
 		}
 	}
+
 	.scheme {
 		background: none;
 		text-align: center;
