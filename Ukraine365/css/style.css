@@ -9,6 +9,9 @@
 input[type="button"] {
 	cursor: pointer;
 }
+.slick-slider {
+	overflow: hidden;
+}
 .container-header {
 	width: 1170px;
 	margin: 10px auto;
