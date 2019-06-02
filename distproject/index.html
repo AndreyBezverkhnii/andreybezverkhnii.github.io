@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webpack Template</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+<link href="assets/css/app.css" rel="stylesheet"></head>
+
+<body>
+
+  <!-- main wrapper -->
+  <div class="wrapper">
+    <!-- #app wrapper for vue -->
+    <div id="app">
+
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <img src="assets/img/Cube.png" alt="colorbox">
+              <p class="logo-content">Colorbox</p>
+            </div>
+            <div class="header-menu">
+              <ul class="header-main-menu">
+                <li class="header-main-menu-link">о нас</li>
+                <li class="header-main-menu-link" id="apple_store">apple store
+                  <ul class="header-sub-menu">
+                    <li>Apple iphone</li>
+                    <li>Apple ipad</li>
+                    <li>Apple iPod</li>
+                    <li>Apple MacBook</li>
+                    <li>Apple iMac</li>
+                    <li>Apple Watch</li>
+                    <li>Аксессуары для Mac</li>
+                    <li>Аксессуары для iPhone</li>
+                    <li>Аксессуары для iPad</li>
+                  </ul>
+                </li>
+                <li class="header-main-menu-link">планшеты</li>
+                <li class="header-main-menu-link">ноутбуки</li>
+              </ul>
+            </div>
+            <div class="header-search">
+              <div class="d1">
+                <form>
+                  <input type="text" placeholder="Поиск">
+                  <button type="submit"></button>
+                </form>
+              </div>
+            </div>
+            <div class="header-card">
+              <img src="assets/img/basket.svg" alt="card">
+              <p class="header-card-title">(0) товар(ов)</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- only content wrapper -->
+      <div class="content-wrapper">
+
+        <!--  expamle section -->
+        <section class="top-content">
+          <div class="container">
+            <div class="top-slider">
+              <div class="top-slider-content">
+                <h1 class="slider-title">We are a Creative Digital Agency</h1>
+                <button class="btn btnWhite">Подробнее</button>
+              </div>
+              <img class="iPhone" src="assets/img/iPhone5s.png" alt="iPhone">
+              <img class="mac" src="assets/img/Macbook.png" alt="Mac">
+            </div>
+            <!-- toggle expamle component -->
+
+          </div>
+        </section>
+        <section class="mobile_os">
+          <div class="container mobile_os_content">
+            <div class="apple">
+              <h2>Apple</h2>
+              <img src="assets/img/apple.png" alt="apple">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste itaque quas debitis doloremque illum, ad
+                beatae, rerum sit sapiente excepturi expedita quos totam, eligendi eaque!</p>
+              <a href="#">read more</a>
+            </div>
+            <div class="android">
+              <h2>Android</h2>
+              <img src="assets/img/android.png" alt="android">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste itaque quas debitis doloremque illum, ad
+                beatae, rerum sit sapiente excepturi expedita quos totam, eligendi eaque!</p>
+              <a href="#">read more</a>
+            </div>
+            <div class="mobileApp">
+              <h2>Mobile App</h2>
+              <img src="assets/img/mobile.png" alt="mobileApp">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste itaque quas debitis doloremque illum, ad
+                beatae, rerum sit sapiente excepturi expedita quos totam, eligendi eaque!</p>
+              <a href="#">read more</a>
+            </div>
+          </div>
+        </section>
+        <section class="popular">
+          <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+
+
+            <div class="slider-goods">
+              <hooper-component>
+                </example-component>
+
+            </div>
+          </div>
+        </section>
+
+      </div> <!-- end content wrapper -->
+
+      <footer class="footer">
+        <div class="container footer-content">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <img src="assets/img/Cube.png" alt="logo">
+              <h2 class="footer-title">Colorbox</h2>
+            </div>
+            <div class="footer_menu">
+              <ul>
+                <li>о нас</li>
+                <li>apple store</li>
+                <li>планшеты</li>
+                <li>ноутбуки</li>
+                <li>доставка</li>
+                <li>оплата</li>
+                <li>гарантия</li>
+                <li>о магазине</li>
+                <li>контакты</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contacts">
+            <div class="social">
+              <h5>Мы в соцсетяк:</h5>
+              <div class="social_icon">
+                <img src="assets/img/Facebook_icon.svg" alt="facebook">
+                <img id="twitter" src="assets/img/Twitter_icon.svg" alt="twitter">
+                <img src="assets/img/Vkontakte_icon.svg" alt="vk">
+                <img src="assets/img/Google_icon.svg" alt="google">
+              </div>
+            </div>
+            <div class="phone-contacts">
+              <a href="tel:+ 380 (00) 000 00 00">+ 380 (00) 000 00 00</a>
+              <a href="tel:+ 380 (00) 000 00 00">+ 380 (00) 000 00 00</a>
+              <a href="#">Заказать звонок</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div> <!-- end #app wrapper -->
+  </div> <!-- end main wrapper -->
+
+<script type="text/javascript" src="assets/js/app.js"></script></body>
+
+</html>
